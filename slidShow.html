@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://www.toei-anim.co.jp/tv/dejimon/chara/charactar/koromon.jpg" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title">
+      <font color="orange" size="12" face= "ヒラギノ角ゴ ProN">
+      アグモン　進化ツリー
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()">
+          <i class="fa-solid fa-play"></i> <</button>
+<img src="https://www.toei-anim.co.jp/tv/dejimon/chara/charactar/koromon.jpg">
+<button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+
+      <button onclick="play()"><i class="fab fa-algolia fa-3x"></i></i>進化</button>
+
+      <button onclick="stop()"><i class="fas fa-stopwatch fa-3x"></i>退化</button>
+      <button onclick="reset()"><i class="fas fa-history fa-3x"></i>幼年期</button>
+    </div>
+    <script src="slidShow.js"></script>
+  </body>
+</html>
